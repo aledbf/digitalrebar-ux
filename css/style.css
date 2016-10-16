@@ -429,3 +429,36 @@ table.no-border, table.no-border tr, table.no-border tr td{
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
 }
+
+.switch {
+  border-radius: 24px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.switch-bottom-row td, .switch-top-row td {
+  background: #ddd;
+  min-width: 24px;
+}
+
+.switch-bottom-row div, .switch-top-row div {
+  display: flex;
+  align-items: center;
+  border: 50%;
+  margin: auto;
+  padding: 4px;
+}
+
+.switch-top-row td, .switch-top-row div {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.switch-bottom-row td, .switch-bottom-row div {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
